@@ -1,19 +1,75 @@
 <!DOCTYPE html>
-<!-- TODO: add lang attribute to the html element -->
-<html>
+<html lang="en">
+
 <head>
-  <!-- TODO: add charset meta and a <title> -->
+  <meta charset="UTF-8">
+  <title>My Profile Page</title>
+
+  <style>
+
+    body{
+      background-color: beige;
+    }
+    
+    #one{
+      color: cornflowerblue;
+      text-align: center;
+    }
+
+    #name{
+      color: hotpink;
+      text-align: center;
+    }
+
+    #internal{
+      color: rgb(77, 12, 242);
+    }
+
+    #external{
+       color: rgb(77, 12, 242);
+    }
+
+    
+  </style>
+
 </head>
 <body>
-  <!--
-    ITCS333 A1 starter. Replace this comment with your profile page.
-    Requirements (see README rubric):
-      - semantic elements: header, nav, main, footer
-      - h1 then h2 heading hierarchy
-      - a link to about.html and one external link
-      - an image with alt text (put the file in assets/)
-      - one ordered list and one unordered list (across both pages)
-  -->
-  <p>TODO: build your profile page here.</p>
+
+  <header>
+    <h1 id="one">Assignment One</h1>
+    <h2 id="name">Nadia Eyad Profile</h2>
+  </header>
+
+  <nav>
+    <a id="internal" href="about.html">About me</a>
+    <a id="external" href="https://github.com/NadiaEyad">My GitHub profile</a>
+  </nav>
+
+  <main>
+
+    <img src="assets/profile.jpeg" width="100" alt="My profile photo">
+    
+    <p>My courses this semester:</p>
+    <ol>
+      <li>Itcs333</li>
+      <li>Itcs347</li>
+      <li>Itcs317</li>
+      <li>Engl219</li>
+      <li>Acc112</li>
+    </ol>
+
+    <p>My Interests</p>
+    <ul>
+      <li>solving puzzels</li>
+      <li>spending time with family</li>
+      <li>playing video games</li>
+    </ul>
+
+</main>
+
+<footer>
+  <p>@ 2026 Nadia's Profile</p>
+</footer>
+
 </body>
 </html>
